@@ -2,6 +2,7 @@
   "name": "express-react-starter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blue-forest-02fb2b90f.6.azurestaticapps.net", 
   "dependencies": {
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
@@ -22,5 +23,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4001"
+  "proxy": "https://blue-forest-02fb2b90f.6.azurestaticapps.net"
 }
