@@ -107,7 +107,7 @@ class Heroes extends Component {
           })}
         </ul>
         <div className="editarea">
-          <button onClick={this.handleEnableAddMode}>Add New Hero</button>
+          <button onClick={this.handleEnableAddMode}>Add New Task</button>
           <EditHero
             addingHero={this.state.addingHero}
             onChange={this.handleOnChange}
