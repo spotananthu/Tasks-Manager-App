@@ -1,6 +1,6 @@
-const cosmosPort = 10255; // replace with your port
-const dbName = 'mycosmosdb-3ddc6e51';
-const key = 'oqwGY6HqkelHAuZWfGHVDpgnUoX9rkNM7oKLzUAoRZpgqqHO4g8mmvxfqLKpHci9c310Nk3JJbugACDbhfjdCg==';
+const cosmosPort = port; // replace with your port
+const dbName = 'dbname';
+const key = 'key';
 
 module.exports = {
   cosmosPort,
