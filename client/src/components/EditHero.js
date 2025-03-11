@@ -6,12 +6,12 @@ const EditHero = props => {
       <div>
         <div className="editfields">
           <div>
-            <label>id: </label>
+            <label>Id: </label>
             {props.addingHero
               ? <input
                   type="number"
                   name="id"
-                  placeholder="id"
+                  placeholder="Id"
                   value={props.selectedHero.id}
                   onChange={props.onChange}
                 />
@@ -20,20 +20,20 @@ const EditHero = props => {
                 </label>}
           </div>
           <div>
-            <label>name: </label>
+            <label>Name: </label>
             <input
               name="name"
               value={props.selectedHero.name}
-              placeholder="name"
+              placeholder="Name"
               onChange={props.onChange}
             />
           </div>
           <div>
-            <label>saying: </label>
+            <label>Description: </label>
             <input
               name="saying"
               value={props.selectedHero.saying}
-              placeholder="saying"
+              placeholder="Description"
               onChange={props.onChange}
             />
           </div>
