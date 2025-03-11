@@ -1,4 +1,4 @@
-const baseAPI = '/api';
+const baseAPI = process.env.REACT_APP_API_URL;
 
 const heroService = {
   get() {
