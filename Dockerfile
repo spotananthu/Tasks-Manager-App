@@ -11,7 +11,8 @@ RUN npm install
 # Bundle app source
 COPY server/ /usr/src/app/
 
-ENV PORT 80
-ENV production
+ENV PORT 8080
+EXPOSE 8080
+ENV NODE_ENV production
 
 CMD [ "npm", "start" ]
